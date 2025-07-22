@@ -164,7 +164,8 @@ def main():
         hz_freq = wave_calculator(meter_length)
         freq_printer(length_type, og_length, hz_freq)
         sys.exit()
-
+parser.print_help()
+sys.exit()
 try:
     main()
 except KeyboardInterrupt:
